@@ -1,3 +1,4 @@
+import 'package:actividad3_1/Screen/Status.dart';
 import 'package:actividad3_1/Screen/camara.dart';
 import 'package:actividad3_1/Screen/chats.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +61,7 @@ class _WhatsAppHomeState extends State<WhatsAppHome> {
             children: [
               Camara(),
               ChatScreen(),
-              Center(child: Text('Status')),
+              ScreenStatus(),
               Center(child: Text('Calls')),
             ],
           ),
